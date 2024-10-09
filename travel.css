@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Styles */
+  header {
+    background-color: #F2E5D7; /* Dark Teal */
+    padding: 20px 0;
+  }
+
+  .logo {
+    width: 200px; /* Set desired width */
+    height: 120px; /* Maintain aspect ratio */
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar nav ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    position: relative;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://source.unsplash.com/1600x900/?travel');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6; /* Slightly transparent */
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    color: #2b6f75; /* Dark Teal */
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .primary-button {
+    background-color: #4caf50; /* Green */
+  }
+  
+  .secondary-button {
+    background-color: #2196f3; /* Blue */
+  }
+  
+  /* Options Section Styles */
+  .options {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #ffffff; /* White background */
+  }
+  
+  .option-box {
+    text-align: center;
+    width: 30%;
+  }
+  
+  .option-box img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .option-box h3 {
+    margin: 10px 0;
+  }
+  
+  .option-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2196f3; /* Blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Contact Section Styles */
+  .contact-section {
+    padding: 50px 20px;
+    background-color: #e0f7fa; /* Light Cyan */
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 15px;
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
