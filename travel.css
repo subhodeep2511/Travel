@@ -8,16 +8,15 @@
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
   }
-  
-  /* Navigation Styles */
+
   header {
-    background-color: #F2E5D7; /* Dark Teal */
+    background-color: #F2E5D7; 
     padding: 20px 0;
   }
 
   .logo {
-    width: 200px; /* Set desired width */
-    height: 120px; /* Maintain aspect ratio */
+    width: 200px;
+    height: 120px; 
   }
   
   
@@ -45,11 +44,10 @@
     font-weight: bold;
   }
   
-  /* Hero Section Styles */
   .hero {
     position: relative;
     height: 100vh;
-    background-color: #f0f8ff; /* Light background color */
+    background-color: #f0f8ff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,14 +64,14 @@
     background-image: url('https://source.unsplash.com/1600x900/?travel');
     background-size: cover;
     background-position: center;
-    opacity: 0.6; /* Slightly transparent */
+    opacity: 0.6; 
     z-index: 1;
   }
   
   .hero-content {
     position: relative;
     z-index: 2;
-    color: #2b6f75; /* Dark Teal */
+    color: #2b6f75;
   }
   
   .title {
@@ -86,7 +84,6 @@
     margin-bottom: 20px;
   }
   
-  /* Button Styles */
   .cta {
     display: inline-block;
     padding: 10px 20px;
@@ -99,19 +96,18 @@
   }
   
   .primary-button {
-    background-color: #4caf50; /* Green */
+    background-color: #4caf50; 
   }
   
   .secondary-button {
-    background-color: #2196f3; /* Blue */
+    background-color: #2196f3;
   }
   
-  /* Options Section Styles */
   .options {
     display: flex;
     justify-content: space-around;
     padding: 50px 20px;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; 
   }
   
   .option-box {
@@ -131,16 +127,15 @@
   .option-link {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #2196f3; /* Blue */
+    background-color: #2196f3; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
   }
   
-  /* Contact Section Styles */
   .contact-section {
     padding: 50px 20px;
-    background-color: #e0f7fa; /* Light Cyan */
+    background-color: #e0f7fa;
   }
   
   .contact-form {
@@ -165,7 +160,7 @@
   
   .submit-button {
     padding: 10px 15px;
-    background-color: #4caf50; /* Green */
+    background-color: #4caf50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -174,6 +169,6 @@
   }
   
   .submit-button:hover {
-    background-color: #45a049; /* Darker green on hover */
+    background-color: #45a049;
   }
   
